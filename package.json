@@ -1,0 +1,34 @@
+{
+  "name": "glob-env",
+  "version": "1.0.0",
+  "description": "Run command for each match of glob pattern(s) with varying env variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odednoam/glob-env.git"
+  },
+  "keywords": [
+    "patterns",
+    "glob",
+    "utility",
+    "cli",
+    "command",
+    "script",
+    "scripts",
+    "npm",
+    "env"
+  ],
+  "author": "Oded Noam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odednoam/glob-env/issues"
+  },
+  "homepage": "https://github.com/odednoam/glob-env#readme",
+  "dependencies": {
+    "glob": "^7.0.5",
+    "q": "^1.4.1"
+  }
+}
