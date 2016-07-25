@@ -44,11 +44,14 @@ Using in pakcage.json
 
 
 ### Arguments
-* *--parallel-run*: commands will be executed concurrently
-* *--sequential-run*: commands will be executed one after the other (will take longer to complete, but require less resources)
-* *--dont-collate-output*: by default, command output is buffered to memory and displayed sequentially even if commands are executed in parallel. You should use this flag if process output is large
-* *--dont-replace*: don't replace $ variables in command line (env variables will still be set)
-* *--*: end of command-line flags. If present, following arguments will be passed to the executed command as-is.
+* **--parallel-run**: commands will be executed concurrently
+* **--sequential-run**: commands will be executed one after the other (will take longer to complete, but require less resources)
+* **--dont-collate-output**: by default, command output is buffered to memory and displayed sequentially even if commands are executed in parallel. You should use this flag if process output is large
+* **--dont-replace**: don't replace $ variables in command line (env variables will still be set)
+* **--**: end of command-line flags. If present, following arguments will be passed to the executed command as-is.
+
+### Acknowledgements
+This utlity was greatly inspired by [glob-run](https://www.npmjs.com/package/glob-run) which is really awesome.
 
 ### License
 MIT © [Oded Noam](http://odednoam.com)
