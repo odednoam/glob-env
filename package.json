@@ -4,7 +4,7 @@
   "description": "Run command for each match of glob pattern(s) with varying env variables",
   "bin": "./bin/glob-env",  
   "scripts": {
-    "test": "test"
+    "test": "   test"
   },
   "repository": {
     "type": "git",

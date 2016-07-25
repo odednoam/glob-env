@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var glob = require('glob');
 var Q = require('q');
 var exec = require('child_process').exec;
