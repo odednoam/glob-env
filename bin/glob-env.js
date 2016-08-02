@@ -96,7 +96,7 @@ var cb = function(stack, env) {
         });
     }
 }
-cb(Object.keys(globbedVariables), {}).then(function() {
+cb(Object.keys(globbedVariables), clone(process.env)).then(function() {
     Q.all(executionQueue).then(function(results) {
         for (var i=0; i<results.length; ++i) {
             printOutput.apply(null, results[i]);

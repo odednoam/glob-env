@@ -1,10 +1,9 @@
 {
   "name": "glob-env",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Run command for each match of glob pattern(s) with varying env variables",
-  "bin": "./bin/glob-env",  
+  "bin": "./bin/glob-env.js",  
   "scripts": {
-    "test": "   test"
   },
   "repository": {
     "type": "git",

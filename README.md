@@ -24,10 +24,10 @@ Will run "npm run build-resources" for every combination. If, for example, the s
 
 then the script will be run 4 times:
 
-* arch=x86 lang=en_US
-* arch=x86 lang=fr_FR
-* arch=ia64 lang=en_US
-* arch=ia64 lang=fr_FR
+* arch=arch/x86 lang=resources/lang/en_US
+* arch=arch/x86 lang=resources/lang/fr_FR
+* arch=arch/ia64 lang=resources/lang/en_US
+* arch=arch/ia64 lang=resources/lang/fr_FR
 
 Using in pakcage.json
 ```json
